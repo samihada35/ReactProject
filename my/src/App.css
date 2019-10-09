@@ -3,35 +3,7 @@
   grid-template-areas: 
   "h h h"
   "n c c";
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 80px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
-}
-
-.header {
-  grid-area: h;
-  background-color: aquamarine;
-}
-
-.header img {
-  width: 20px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: blueviolet;
-}
-
-.content {
-  grid-area: c;
-  background-color: blue;
-}
-
-.headImg {
-  width: 100%;
-  height: 100px;
-}
-
-.avatarImg {
-  width: 10%;
 }

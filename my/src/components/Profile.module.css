@@ -1,0 +1,17 @@
+.content {
+    grid-area: c;
+    background-color: blue;
+}
+  
+.headImg {
+    width: 100%;
+    height: 100px;
+}
+  
+.avatarImg {
+    width: 10%;
+}
+
+.item {
+    color: green;
+}

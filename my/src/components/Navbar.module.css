@@ -1,0 +1,21 @@
+.nav {
+    grid-area: n;
+    background-color: rgb(193, 252, 232);
+    margin-left: 30px;
+    border-radius: 22px;
+}
+
+.item {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.item a {
+    color: #9EADBD;
+    text-decoration: none;
+}
+
+.active a:hover {
+    color: red;
+}
