@@ -3,6 +3,8 @@
     background-color: rgb(193, 252, 232);
     margin-left: 30px;
     border-radius: 22px;
+    border: 1px gray solid;
+    max-height: 400px;
 }
 
 .item {

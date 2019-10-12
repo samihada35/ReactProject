@@ -1,17 +1,94 @@
 .content {
     grid-area: c;
-    background-color: blue;
+    margin-right: 30px;
+}
+
+.headDivImg {
+    overflow: hidden;
+    min-height: 200px;
+    max-height: 200px;
+    width: 100%;
+    position: relative;
 }
   
 .headImg {
-    width: 100%;
-    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.profileTop {
+    display: grid;
+    background: lightgrey;
+    margin-top: 20px;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: 
+    "ava name"
+    "ava date"
+    "ava city"
+    "ava educ"
+    "ava site";
+}
+
+.avatarImg {
+    grid-area: ava;
+    width: 70%;
+    max-width: 170px;
+    border-radius: 50px;
+}
+
+.name {
+    grid-area: name;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.dateOfBirth {
+    grid-area: date;
 }
   
-.avatarImg {
-    width: 10%;
+.city {
+    grid-area: city;
+}
+
+.education {
+    grid-area: educ;
+}
+
+.site {
+    grid-area: site;
+}
+
+.myPost {
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+.textareaPost {
+    background: rgb(219, 250, 240);
+    height: 50px;
+    width: 60%;
+    border-radius: 12px;
+}
+
+.input {
+    height: 3%;
+    width: 9%;
+    background: rgb(128, 238, 128);
+    border: 1px gray solid;
+    border-radius: 12px;
 }
 
 .item {
-    color: green;
+    border: 1px gray solid;
+    margin-top: 2%;
+    border-radius: 12px;
+    padding: 12px;
 }
+
+.avatarNews {
+    height: 5%;
+    width: 5%;
+}
+
