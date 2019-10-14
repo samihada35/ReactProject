@@ -1,0 +1,19 @@
+.avatarImg {
+    grid-area: ava;
+    width: 70%;
+    max-width: 170px;
+    border-radius: 50px;
+}
+
+.item {
+    border: 1px gray solid;
+    margin-top: 2%;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.avatarNews {
+    height: 5%;
+    width: 5%;
+}
+

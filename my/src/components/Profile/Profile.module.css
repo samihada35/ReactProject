@@ -33,6 +33,7 @@
 
 .avatarImg {
     grid-area: ava;
+    padding: 2%;
     width: 70%;
     max-width: 170px;
     border-radius: 50px;

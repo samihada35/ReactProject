@@ -1,0 +1,19 @@
+.myPost {
+    margin-top: 2%;
+    font-size: x-large;
+}
+
+.textareaPost {
+    background: rgb(219, 250, 240);
+    height: 50px;
+    width: 60%;
+    border-radius: 12px;
+}
+
+.input {
+    height: 3%;
+    width: 9%;
+    background: rgb(128, 238, 128);
+    border: 1px gray solid;
+    border-radius: 12px;
+}
