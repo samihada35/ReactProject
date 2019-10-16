@@ -13,7 +13,8 @@
 .input {
     height: 3%;
     width: 9%;
+    min-width: max-content;
     background: rgb(128, 238, 128);
-    border: 1px gray solid;
+    border: 1px lightgray solid;
     border-radius: 12px;
 }

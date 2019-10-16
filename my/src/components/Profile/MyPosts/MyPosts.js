@@ -23,8 +23,8 @@ const MyPosts = () => {
 
             </div>
 
-            <Post />
-            <Post />
+            <Post message='Hi' likeCount='26' />
+            <Post message='My name is Alex' likeCount='16' />
         </div>
     );
 }

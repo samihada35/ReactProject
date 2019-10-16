@@ -3,8 +3,8 @@
     background-color: rgb(193, 252, 232);
     margin-left: 30px;
     border-radius: 22px;
-    border: 1px gray solid;
-    max-height: 400px;
+    border: 1px lightgrey solid;
+    max-height: 30%;
 }
 
 .item {
@@ -19,5 +19,5 @@
 }
 
 .active a:hover {
-    color: red;
+    color: black;
 }
