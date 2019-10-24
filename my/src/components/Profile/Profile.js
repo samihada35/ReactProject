@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts.js';
 
 const Profile = () => {
     return (
-        <main className={style.content}>
+        <main>
             <div className={style.headDivImg}>
                 <img className={style.headImg} src="http://glowingbluecore.com/wordpress/wp-content/uploads/gbc-css-img-fill-demo-wide-picture.jpg" alt="img"></img>
             </div>
