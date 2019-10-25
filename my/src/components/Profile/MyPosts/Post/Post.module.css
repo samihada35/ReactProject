@@ -1,8 +1,10 @@
 .item {
-    border: 1px lightgray solid;
+    border: 1px rgb(240, 240, 240) solid;
     margin-top: 2%;
     border-radius: 12px;
     padding: 12px;
+    color: #999;
+    font-size: 12px;
 }
 
 .avatarNews {

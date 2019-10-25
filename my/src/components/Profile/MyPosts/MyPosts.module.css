@@ -1,20 +1,25 @@
 .myPost {
     margin-top: 2%;
-    font-size: x-large;
+    font-size: 15px;
+    color: #666;
 }
 
 .textareaPost {
-    background: rgb(219, 250, 240);
+    background: rgb(239, 239, 240);
+    color: #666;
     height: 50px;
     width: 60%;
+    border: 1px lightgray solid;
     border-radius: 12px;
 }
 
 .input {
     height: 3%;
     width: 9%;
+    color: #666;
     min-width: max-content;
-    background: rgb(128, 238, 128);
+    background: rgb(239, 239, 240);
     border: 1px lightgray solid;
     border-radius: 12px;
+    font-size: 12px;
 }

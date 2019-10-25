@@ -1,0 +1,13 @@
+.avatarNews {
+    width: 55%;
+    border-radius: 50px;
+}
+
+.dialogPreview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px lightgrey solid;
+    border-radius: 8px;
+}

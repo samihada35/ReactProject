@@ -1,6 +1,6 @@
 .nav {
     grid-area: n;
-    background-color: rgb(193, 252, 232);
+    background-color: rgba(51,76,138,.85);
     margin-left: 30px;
     border-radius: 22px;
     border: 1px lightgrey solid;
@@ -19,5 +19,5 @@
 }
 
 .active a:hover {
-    color: black;
+    color: whitesmoke;
 }

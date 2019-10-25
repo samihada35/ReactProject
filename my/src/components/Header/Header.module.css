@@ -1,11 +1,11 @@
 .header {
     grid-area: h;
     max-height: 52px;
-    background-color: rgb(193, 252, 232);
+    background-color: rgba(51,76,138,.85);
     margin-top: 2%;
     margin-left: 30px;
     margin-right: 30px;
-    border-radius: 22px;
+    border-radius: 23px;
     border: 1px lightgray solid;
   }
   

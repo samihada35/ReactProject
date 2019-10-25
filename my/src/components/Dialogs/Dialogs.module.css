@@ -1,0 +1,16 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    color: #666;
+}
+
+.dialogsList {
+    background: #fff;
+    padding: 10px;
+}
+
+.dialogContent{
+    background: #fff;
+    padding: 10px;
+}
