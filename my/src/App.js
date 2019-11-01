@@ -25,7 +25,7 @@ const App = () => {
             component={Profile}
           />
 
-          <Route
+          <Route /*exact*/
             path="/my/src/components/Dialogs/Dialogs.js"
             component={Dialogs}
           />

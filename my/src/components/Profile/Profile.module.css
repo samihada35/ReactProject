@@ -2,68 +2,9 @@
     background: #fff;
     padding: 10px;
 }
-.headDivImg {
-    overflow: hidden;
-    min-height: 200px;
-    max-height: 200px;
-    width: 100%;
-    position: relative;
-}
-  
-.headImg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-}
-
-.profileTop {
-    display: grid;
-    color: #666;
-    margin-top: 20px;
-    grid-template-columns: 2fr 10fr;
-    grid-template-areas: 
-    "ava name"
-    "ava date"
-    "ava city"
-    "ava educ"
-    "ava site";
-}
 
 .line {
     background: #F2F4F5;
     height: 5px;
     margin-top: 12px;
 }
-
-.avatarImg {
-    grid-area: ava;
-    padding: 2%;
-    width: 70%;
-    max-width: 170px;
-    border-radius: 10px;
-}
-
-.name {
-    grid-area: name;
-    font-size: 19px;
-    margin-bottom: 20px;
-}
-
-.dateOfBirth {
-    grid-area: date;
-    font-size: 13px;
-}
-  
-.city {
-    grid-area: city;
-}
-
-.education {
-    grid-area: educ;
-}
-
-.site {
-    grid-area: site;
-}
-
