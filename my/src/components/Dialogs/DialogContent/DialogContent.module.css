@@ -1,28 +1,28 @@
 .avatarNews {
-    grid-area: ava;
-    padding: 10px;
-    width: 20%;
-    border-radius: 50px;
+  grid-area: ava;
+  padding: 10px;
+  width: 20%;
+  border-radius: 50px;
 }
 
 .name {
-    grid-area: name;
-    padding: 10px;
+  grid-area: name;
+  padding: 10px;
 }
 
 .message {
-    grid-area: message;
-    padding: 10px;
+  grid-area: message;
+  padding: 10px;
 }
 
 .dialogContent {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-areas: 
-    'ava name'
-    'message message';
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px lightgrey solid;
-    border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas:
+    "ava name"
+    "message message";
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px lightgrey solid;
+  border-radius: 8px;
 }

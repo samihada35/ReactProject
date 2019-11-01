@@ -13,13 +13,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
-        
         <Header />
 
         <Navbar />
 
         <div className="app-wrapper-cotent">
-
           <Route
             path="/my/src/components/Profile/Profile.js"
             component={Profile}
@@ -30,21 +28,14 @@ const App = () => {
             component={Dialogs}
           />
 
-          <Route 
-            path="/my/src/components/News/News.js" 
-            component={News} 
-          />
+          <Route path="/my/src/components/News/News.js" component={News} />
 
-          <Route 
-            path="/my/src/components/Music/Music.js" 
-            component={Music} 
-          />
+          <Route path="/my/src/components/Music/Music.js" component={Music} />
 
           <Route
             path="/my/src/components/Settings/Settings.js"
             component={Settings}
           />
-
         </div>
       </div>
     </BrowserRouter>
