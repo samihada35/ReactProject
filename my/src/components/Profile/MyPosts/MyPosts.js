@@ -8,6 +8,10 @@ const MyPosts = () => {
     { id: 2, message: "My name is Alex", likeCount: 16 }
   ];
 
+  let postItem = postData.map(post => (
+    <Post message={post.message} likeCount={post.likeCount} />
+  ));
+
   return (
     <div>
       <div className={style.myPost}>My Posts</div>
@@ -26,9 +30,8 @@ const MyPosts = () => {
           </form>
         </div>
       </div>
-      
-      <Post message={postData[0].message} likeCount={postData[0].likeCount} />
-      <Post message={postData[1].message} likeCount={postData[1].likeCount} />
+
+      {postItem}
     </div>
   );
 };
