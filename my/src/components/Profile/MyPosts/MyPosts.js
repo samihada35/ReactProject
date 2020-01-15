@@ -5,7 +5,8 @@ import style from "./MyPosts.module.css";
 const MyPosts = () => {
   let postData = [
     { id: 1, message: "hi", likeCount: 26 },
-    { id: 2, message: "My name is Alex", likeCount: 16 }
+    { id: 2, message: "My name is Alex", likeCount: 16 },
+    { id: 3, message: "Glad to see u", likeCount: 21 }
   ];
 
   let postItem = postData.map(post => (

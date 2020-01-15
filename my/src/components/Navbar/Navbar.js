@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className={`${style.item} ${style.active}`}>
         <NavLink to="/my/src/components/Dialogs/Dialogs.js">Messages</NavLink>
       </div>
-
+      
       <div className={`${style.item} ${style.active}`}>
         <NavLink to="/my/src/components/News/News.js">News</NavLink>
       </div>
