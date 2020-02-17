@@ -26,7 +26,7 @@ const MyPosts = () => {
               maxLength="500"
             ></textarea>
             <div>
-              <input type="submit" className={style.input} value="post" />
+              <input type="submit" className={style.input} value="post"/>
             </div>
           </form>
         </div>
