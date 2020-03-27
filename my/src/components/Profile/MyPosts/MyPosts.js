@@ -2,14 +2,9 @@ import React from "react";
 import Post from "./Post/Post.js";
 import style from "./MyPosts.module.css";
 
-const MyPosts = () => {
-  let postData = [
-    { id: 1, message: "hi", likeCount: 26 },
-    { id: 2, message: "My name is Alex", likeCount: 16 },
-    { id: 3, message: "Glad to see u", likeCount: 21 }
-  ];
+const MyPosts = props => {
 
-  let postItem = postData.map(post => (
+  let postItem = props.postData.map(post => (
     <Post message={post.message} likeCount={post.likeCount} />
   ));
 
@@ -26,7 +21,7 @@ const MyPosts = () => {
               maxLength="500"
             ></textarea>
             <div>
-              <input type="submit" className={style.input} value="post"/>
+              <input type="submit" className={style.input} value="post" />
             </div>
           </form>
         </div>

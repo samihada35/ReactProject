@@ -3,15 +3,9 @@ import style from "./Dialogs.module.css";
 import DialogPreview from "./DialogPreview/DialogPreview.js";
 import DialogContent from "./DialogContent/DialogContent.js";
 
-const Dialogs = () => {
-  let dialogData = [
-    { id: 1, messagePreview: "hi", name: "Igor" },
-    { id: 2, messagePreview: "hi!", name: "Vlad" },
-    { id: 3, messagePreview: "hi, no?", name: "Ilia" },
-    { id: 4, messagePreview: "hi, Yury", name: "Jane" }
-  ];
+const Dialogs = (props) => {
 
-  let dialogItem = dialogData.map(dialog => (
+  let dialogItem = props.dialogData.map(dialog => (
     <DialogPreview
       name={dialog.name}
       messagePreview={dialog.messagePreview}
@@ -19,13 +13,7 @@ const Dialogs = () => {
     />
   ));
 
-  let messageData = [
-    { id: 1, message: "hi", name: "Igor" },
-    { id: 2, message: "hi!", name: "Vlad" },
-    { id: 3, message: "hi, no?", name: "Ilia" }
-  ];
-
-  let messageItem = messageData.map(message => (
+  let messageItem = props.messageData.map(message => (
     <DialogContent name={message.name} message={message.message} />
   ));
 
