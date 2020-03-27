@@ -3,7 +3,7 @@ import style from "./Dialogs.module.css";
 import DialogPreview from "./DialogPreview/DialogPreview.js";
 import DialogContent from "./DialogContent/DialogContent.js";
 
-const Dialogs = props => {
+const Dialogs = () => {
   let dialogData = [
     { id: 1, messagePreview: "hi", name: "Igor" },
     { id: 2, messagePreview: "hi!", name: "Vlad" },
