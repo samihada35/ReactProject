@@ -5,7 +5,7 @@ import DialogContent from "./DialogContent/DialogContent.js";
 
 const Dialogs = (props) => {
 
-  let dialogItem = props.dialogData.map(dialog => (
+  let dialogItem = props.state.dialogData.map(dialog => (
     <DialogPreview
       name={dialog.name}
       messagePreview={dialog.messagePreview}
@@ -13,7 +13,7 @@ const Dialogs = (props) => {
     />
   ));
 
-  let messageItem = props.messageData.map(message => (
+  let messageItem = props.state.messageData.map(message => (
     <DialogContent name={message.name} message={message.message} />
   ));
 

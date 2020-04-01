@@ -21,12 +21,12 @@ const App = (props) => {
         <div className="app-wrapper-cotent">
           <Route
             path="/my/src/components/Profile/Profile.js"
-            render={() => <Profile postData={props.postData} />}
+            render={() => <Profile state={props.state.ProfilePage} />}
           />
 
           <Route
             path="/my/src/components/Dialogs/Dialogs.js"
-            render={() => <Dialogs messageData={props.messageData} dialogData={props.dialogData} />}
+            render={() => <Dialogs state={props.state.MessagesPage} />}
           />
 
           <Route path="/my/src/components/News/News.js" component={News} />

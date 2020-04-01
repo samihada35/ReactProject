@@ -11,7 +11,7 @@ const Profile = (props) => {
 
       <div className={style.line}></div>
 
-      <MyPosts  postData={props.postData}/>
+      <MyPosts  postData={props.state.postData}/>
     </main>
   );
 };
