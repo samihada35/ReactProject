@@ -1,7 +1,7 @@
 let state = {
   ProfilePage: {
     postData: [
-      { id: 1, message: "hi", likeCount: 26 },
+      { id: 1, message: "hi!", likeCount: 26 },
       { id: 2, message: "My name is Alex", likeCount: 16 },
       { id: 3, message: "Glad to see u", likeCount: 21 }
     ]
